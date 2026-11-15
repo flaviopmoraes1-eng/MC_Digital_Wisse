@@ -598,9 +598,6 @@ if manual_kind == "default":
         st.error(f"Não foi possível ler o STL padrão {default_path.name}: {exc}")
         st.stop()
     suffix = ".stl"
-    st.info("STL padrão carregado. O fator de escala inicial é 1000 (metros para milímetros); "
-            "confirme a unidade do arquivo e ajuste o fator se necessário. "
-            "A espessura inicial de 6,35 mm é editável; confirme os dados reais.")
 elif is_pdf:
     raw, iso_wall, iso_od, iso_pressure, iso_temp = iso_input(raw)
     suffix = ".step"
