@@ -1,0 +1,9 @@
+streamlit[pdf]
+numpy
+scipy
+pandas
+matplotlib
+plotly
+gmsh
+pymupdf
+reportlab
